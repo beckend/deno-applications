@@ -1,0 +1,8 @@
+// https://lint.deno.land
+{
+  "lint": {
+    "rules": {
+      "tags": ["recommended"]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "deno.lint": true,
+  "deno.unstable": true,
+  "deno.suggest.imports.hosts": {
+    "https://deno.land": false,
+    "https://cdn.skypack.dev": false
+  },
+  "deno.enable": true,
+  "deno.suggest.completeFunctionCalls": true,
+  "deno.codeLens.implementations": true,
+  "deno.codeLens.referencesAllFunctions": true,
+  "deno.config": "./.vscode/deno.jsonc",
+  "deno.codeLens.references": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
